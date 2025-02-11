@@ -1,0 +1,15 @@
+{
+    "name": "langgraph-simple-agent",
+    "version": "1.0.0",
+    "description": "A simple LangGraph agent project",
+    "dockerfile_lines": [],
+      "graphs": {
+        "memory_agent": "./simple_memory_agent.py:graph"
+      },
+      "env": "./.env",
+      "python_version": "3.11",
+      "dependencies": [
+        "."
+      ]
+}
+  
